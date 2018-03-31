@@ -16,10 +16,12 @@ WriteMakefile(
     },
     BUILD_REQUIRES => {
         'Test::More' => 0,
+        'JSON' => 0,
     },
     PREREQ_PM => {
         'Test::More' => 1.001,
         'Test::Fatal' => 0.014,
+        'JSON' => 0,
     },
     META_MERGE => {
         'meta-spec' => { version => 2 },
